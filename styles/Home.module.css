@@ -1,16 +1,12 @@
-/* .container {
-  padding: 0 2rem;
-  background-color: #ece795;
-} */
-
 .main {
-  height: 1200px;
+  height: 1600px;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ebe9c6;
+  z-index: 1;
 }
 
 .footer {
@@ -18,17 +14,19 @@
   padding-top: 2PX;
   padding-left: 20px;
   background: #119aac;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid hsla(184, 93%, 47%, 0.822);
   bottom: 0;
   left: 0;
+  color:white;
   height: 40px;
   width: 100%;
-  z-index: 3;
+  z-index: 4;
 }
 
 .title a {
   color: #119aac;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 .title a:hover,
@@ -39,19 +37,24 @@
 
 }
 
+.footerURL{
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  z-index: 2;
+  z-index: 3;
 }
 
 .famr{
@@ -60,7 +63,7 @@
   transform: rotateZ(15deg);
   right:10%;
   top: 30%;
-  z-index: 0;
+  z-index: 1;
 }
 .engr{
   position: absolute;
@@ -68,7 +71,7 @@
   transform: rotateZ(-15deg);
   right:10%;
   top: 70%;
-  z-index: 0;
+  z-index: 1;
 }
 .faml{
   position: absolute;
@@ -76,7 +79,7 @@
   transform: rotateZ(-10deg);
   left:10%;
   top: 70%;
-  z-index: 0;
+  z-index: 1;
 }
 .engl{
   position: absolute;
@@ -84,7 +87,7 @@
   transform: rotateZ(6deg);
   left:10%;
   top: 30%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .grid {
@@ -97,8 +100,8 @@
 
 .card {
   margin: 1rem;
-  background: hsla(184, 93%, 47%, 0.822);;
-  z-index: 1;
+  background: hsla(184, 93%, 47%, 0.822);
+  z-index: 2;
   padding: 1.5rem;
   text-align: left;
   vertical-align: middle;
