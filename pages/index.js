@@ -19,18 +19,11 @@ export default function Home() {
         <p className={styles.description}>
           Thank you for checking out our wedding website! If you are planning on attending, please take the survey where it says RSVP
         </p>
-
+        <img className={styles.engr} src="/eng1.jpg"></img>
+        <img className={styles.engl} src="/eng2.jpg"></img>
+        <img className={styles.famr} src="/fam1.jpg"></img>
+        <img className={styles.faml} src="/fam2.jpg"></img>
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>Where To Eat &raquo;</h2>
-            <p>Try some of our favorite places around town to eat.</p>
-          </a>
-
-          <a href="" className={styles.card}>
-            <h2>Where to stay &raquo;</h2>
-            <p>We've blocked off a rew rooms for you at the ArericInn</p>
-          </a>
-
           <a
             href="https://forms.gle/WxpvjU3EmtbboS7A6"
             className={styles.card}
@@ -38,7 +31,6 @@ export default function Home() {
             <h2>RSVP! &raquo;</h2>
             <p>Tell us that you're going to show by filling out a quick survey on your phone.</p>
           </a>
-
           <a
             href=""
             className={styles.card}
@@ -48,6 +40,15 @@ export default function Home() {
               Try out a few of our favorite spots where we shared our first few dates.
             </p>
           </a>
+          <a href="" className={styles.card}>
+            <h2>Where to Stay &raquo;</h2>
+            <p>We've blocked off a rew rooms for you at the ArericInn</p>
+          </a>
+          <a href="" className={styles.card}>
+            <h2>Where to Eat &raquo;</h2>
+            <p>Try some of our favorite places around town to eat.</p>
+          </a>
+          
         </div>
       </main>
 
