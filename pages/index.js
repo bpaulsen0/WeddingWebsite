@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import * as React from 'react';
+import tour from "./tour.js";
+import food from "./food.js";
+import lodging from "./lodging.js";
 
 export default function Home() {
   return (
@@ -15,7 +19,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a>Ben and Tia's</a> Wedding Website!
         </h1>
-
         <p className={styles.description}>
           Thank you for checking out our wedding website! If you are planning on attending, please take the survey where it says RSVP
         </p>
@@ -32,7 +35,7 @@ export default function Home() {
             <p>Tell us that you're going to show by filling out a quick survey on your phone.</p>
           </a>
           <a
-            href=""
+            href="tour"
             className={styles.card}
           >
             <h2>Take the Tour &raquo;</h2>
@@ -40,37 +43,30 @@ export default function Home() {
               Try out a few of our favorite spots where we shared our first few dates.
             </p>
           </a>
-          <a href="" className={styles.card}>
+          <a href="lodging" className={styles.card}>
             <h2>Where to Stay &raquo;</h2>
             <p>We've blocked off a rew rooms for you at the ArericInn</p>
           </a>
-          <a href="" className={styles.card}>
+          <a href="food" className={styles.card}>
             <h2>Where to Eat &raquo;</h2>
             <p>Try some of our favorite places around town to eat.</p>
           </a>
-          
         </div>
       </main>
-
       <footer className={styles.footer}>
         <a
+          className={styles.footerURL}
           href="https://www.amazon.com/wedding/share/benandtiasweddingregistry"
         >
-          Amazon Gift Registry
+          ⥽Amazon Gift Registry⥼
+        </a>
+        <a
+          className={styles.footerURL}
+          href="https://www.target.com/gift-registry/gift/ben-and-tias-wedding"
+        >
+          ⥽Target Gift Registry⥼
         </a>
       </footer>
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   )
 }
