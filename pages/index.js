@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import * as React from 'react';
-import tour from "./tour.js";
-import food from "./food.js";
-import lodging from "./lodging.js";
-import album from "./album.js"
+// import tour from "./tour.js";
+// import food from "./food.js";
+// import lodging from "./lodging.js";
+// import album from "./album.js"
 
 export default function Home() {
   return (
