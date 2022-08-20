@@ -30,6 +30,21 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/album": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/album.js"
+    ],
+    "/food": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/food.js"
+    ],
+    "/lodging": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/lodging.js"
+    ],
     "/tour": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
