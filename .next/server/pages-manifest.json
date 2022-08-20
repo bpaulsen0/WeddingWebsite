@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/lodging": "pages/lodging.js",
-  "/tour": "pages/tour.js",
-  "/album": "pages/album.js",
   "/food": "pages/food.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/lodging": "pages/lodging.js"
 }
