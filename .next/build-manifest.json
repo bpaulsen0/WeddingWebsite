@@ -44,11 +44,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/lodging.js"
-    ],
-    "/tour": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tour.js"
     ]
   },
   "ampFirstPages": []
