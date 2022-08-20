@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { Loader } from '@googlemaps/js-api-loader';
 import * as React from 'react';
 import styles from '../styles/tour.module.css'
 
