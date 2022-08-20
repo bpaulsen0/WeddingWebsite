@@ -5,6 +5,7 @@ import * as React from 'react';
 import tour from "./tour.js";
 import food from "./food.js";
 import lodging from "./lodging.js";
+import album from "./album.js"
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a>Ben and Tia's</a> Wedding Website!
+          Welcome to <a href='album'>Ben and Tia's</a> Wedding Website!
         </h1>
         <p className={styles.description}>
           Thank you for checking out our wedding website! If you are planning on attending, please take the survey where it says RSVP

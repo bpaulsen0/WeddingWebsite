@@ -10,14 +10,14 @@
 }
 
 .footer {
-  position:fixed;
+  position: fixed;
   padding-top: 2PX;
   padding-left: 20px;
   background: #119aac;
   border-top: 1px solid hsla(184, 93%, 47%, 0.822);
   bottom: 0;
   left: 0;
-  color:white;
+  color: white;
   height: 40px;
   width: 100%;
   z-index: 4;
@@ -37,7 +37,7 @@
 
 }
 
-.footerURL{
+.footerURL {
   padding-left: 20px;
   vertical-align: middle;
 }
@@ -57,35 +57,38 @@
   z-index: 3;
 }
 
-.famr{
+.famr {
   position: absolute;
   height: 300px;
   transform: rotateZ(15deg);
-  right:10%;
+  right: 10%;
   top: 30%;
   z-index: 1;
 }
-.engr{
+
+.engr {
   position: absolute;
   height: 300px;
   transform: rotateZ(-15deg);
-  right:10%;
+  right: 10%;
   top: 70%;
   z-index: 1;
 }
-.faml{
+
+.faml {
   position: absolute;
   height: 300px;
   transform: rotateZ(-10deg);
-  left:10%;
+  left: 10%;
   top: 70%;
   z-index: 1;
 }
-.engl{
+
+.engl {
   position: absolute;
-  height: 300px;
+  height: 400px;
   transform: rotateZ(6deg);
-  left:10%;
+  left: 10%;
   top: 30%;
   z-index: 1;
 }
@@ -105,7 +108,7 @@
   padding: 1.5rem;
   text-align: left;
   vertical-align: middle;
-  height:200px;
+  height: 200px;
   border: 1px solid #119aac;
   border-radius: 10px;
   max-width: 300px;
