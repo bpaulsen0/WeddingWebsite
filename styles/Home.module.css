@@ -1,5 +1,7 @@
 .main {
-  height: 1600px;
+  /* height: 1600px; */
+  height:auto;
+  width:100%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -29,6 +31,12 @@
   text-decoration: underline;
 }
 
+.title:hover{
+  transition: .5s;
+  color: #2bf110;
+  padding: 60px;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -46,6 +54,9 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  background-color: #e01a1a;
+  border-radius: 10px;
+  padding: 5px;
   text-align: center;
   z-index: 3;
 }
@@ -54,30 +65,40 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
   z-index: 3;
 }
 
+.images{
+  position:fixed;
+  width: 100%;
+  /* transform: rotateZ(15deg); */
+  z-index: 1;
+}
+
 .famr {
-  position: absolute;
-  height: 300px;
+  position:fixed;
+  width: 15%;
   transform: rotateZ(15deg);
-  right: 10%;
-  top: 30%;
+  left: 80%;
+  top: 35%;
   z-index: 1;
 }
 
 .engr {
-  position: absolute;
-  height: 300px;
+  position:fixed;
+  width: 15%;
   transform: rotateZ(-15deg);
-  right: 10%;
-  top: 70%;
+  left: 70%;
+  top: 65%;
   z-index: 1;
 }
 
 .faml {
-  position: absolute;
-  height: 300px;
+  position:fixed;
+  width: 15%;
   transform: rotateZ(-10deg);
   left: 10%;
   top: 70%;
@@ -85,13 +106,32 @@
 }
 
 .engl {
-  position: absolute;
-  height: 400px;
+  position:fixed;
+  width: 15%;
   transform: rotateZ(6deg);
   left: 10%;
   top: 30%;
   z-index: 1;
 }
+
+.decr {
+  position:absolute;
+  width: 3%;
+  transform: rotateZ(90deg);
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.decl {
+  position:absolute;
+  width: 3%;
+  /* transform: rotateZ(10deg); */
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
 
 .grid {
   display: flex;
@@ -111,7 +151,7 @@
   height: 200px;
   border: 1px solid #119aac;
   border-radius: 10px;
-  max-width: 300px;
+  width: 300px;
 }
 
 .card:hover {

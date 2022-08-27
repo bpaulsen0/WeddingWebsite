@@ -1,5 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/api/hello": "pages/api/hello.js",
+  "/album": "pages/album.html",
+  "/": "pages/index.html",
+  "/food": "pages/food.html",
+  "/lodging": "pages/lodging.html",
+  "/registry": "pages/registry.html",
+  "/schedule": "pages/schedule.html",
+  "/tour": "pages/tour.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
