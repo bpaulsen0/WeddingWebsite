@@ -2,10 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import * as React from 'react';
-// import tour from "./tour.js";
-// import food from "./food.js";
-// import lodging from "./lodging.js";
-// import album from "./album.js"
 
 export default function Home() {
   return (
@@ -18,18 +14,24 @@ export default function Home() {
       <img className={styles.decl} src="/CornerDecoration.png"></img>
       <img className={styles.decr} src="/CornerDecoration.png"></img>
       <main className={styles.main}>
+        <div className={styles.masonry}>
+          <img className={styles.item} src="/album/bikes.jpg"></img>
+          <img className={styles.item} src="/album/eng1.jpg"></img>
+          <img className={styles.item} src="/album/Me_and_Tia.jpg"></img>
+          <img className={styles.item} src="/album/eng2.jpg"></img>
+          <img className={styles.item} src="/album/prom.jpg"></img>
+          <img className={styles.item} src="/album/snowboard.jpg"></img>
+          <img className={styles.item} src="/album/sweeties.jpg"></img>
+          <img className={styles.item} src="/album/zorro_presents.jpg"></img>
+          <img className={styles.item} src="/album/zorro_window.jpg"></img>
+          <img className={styles.item} src="/album/Zorro.jpg"></img>
+        </div>
         <h1 className={styles.title}>
           Welcome to <a href='album'>Ben and Tia's</a> Wedding Website!
         </h1>
         <p className={styles.description}>
           Thank you for checking out our wedding website! If you are planning on attending, please take the survey where it says RSVP
         </p>
-        {/* <div className={styles.images}>
-          <img className={styles.engr} src="/eng1.jpg"></img>
-          <img className={styles.engl} src="/eng2.jpg"></img>
-          <img className={styles.famr} src="/fam1.jpg"></img>
-          <img className={styles.faml} src="/fam2.jpg"></img>
-        </div> */}
         <div className={styles.grid}>
           <a
             href="https://forms.gle/WxpvjU3EmtbboS7A6"
@@ -44,7 +46,7 @@ export default function Home() {
           >
             <h2>Schedule &raquo;</h2>
             <p>
-              """"
+              Be prepared by knowing when everything is happening!
             </p>
           </a>
           <a
@@ -53,7 +55,7 @@ export default function Home() {
           >
             <h2>Gift Registry &raquo;</h2>
             <p>
-            """"
+              If you wish to bring a gift, we have registered here.
             </p>
           </a>
           <a
@@ -67,7 +69,7 @@ export default function Home() {
           </a>
           <a href="lodging" className={styles.card}>
             <h2>Where to Stay &raquo;</h2>
-            <p>We've blocked off a rew rooms for you at the AmericInn</p>
+            <p>We've blocked off a few rooms for your convinence at the AmericInn</p>
           </a>
           <a href="food" className={styles.card}>
             <h2>Where to Eat &raquo;</h2>
