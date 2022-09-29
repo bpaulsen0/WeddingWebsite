@@ -13,7 +13,6 @@ export default function Home() {
     const interval= setInterval(()=>{
       const now = new Date();
       const difference = weddingdate.getTime() - now.getTime();
-
       const d = Math.floor(difference / (1000 * 60 * 60 *24));
       setDays(d)
       const h = Math.floor((difference % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
@@ -23,10 +22,8 @@ export default function Home() {
       const s = Math.floor((difference % (1000 * 60)) / (1000));
       setSeconds(s)
     }, 1000)
-
     return ()=> clearInterval(interval)
   },[])
-
 
   return (
     <div className={styles.container}>
