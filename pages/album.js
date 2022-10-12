@@ -26,7 +26,7 @@ export default function Album() {
                 <img className={styles.item} src="/album/zorro_presents.jpg"></img>
                 <img className={styles.item} src="/album/sweeties.jpg"></img>
                 <img className={styles.item} src="/album/zorro_window.jpg"></img>
-                <img className={styles.item} src="/album/20131229_111021 (1).jepg"></img>
+                <img className={styles.item} src="/album/paulsen_christmas.jpeg"></img>
                 <img className={styles.item} src="/album/cutetia.jpg"></img>
                 <img className={styles.item} src="/album/Photo Library - 1796.jpeg"></img>
                 <img className={styles.item} src="/album/Photo Library - 1726.jpeg"></img>
@@ -38,7 +38,7 @@ export default function Album() {
                 <img className={styles.item} src="/album/Summer 2010 Cousins.jpeg"></img>
                 <img className={styles.item} src="/album/Wiezorek_Family.jpg"></img>
                 <img className={styles.item} src="/album/meske.jpg"></img>
-                <img className={styles.item} src="/album/Andy Family.jepg"></img>
+                <img className={styles.item} src="/album/Andy_Family.jpeg"></img>
                 <img className={styles.item} src="/album/Leaves.jpeg"></img>
                 <img className={styles.item} src="/album/Summer2010.jpeg"></img>
                 <img className={styles.item} src="/album/BenToys.jpeg"></img>
