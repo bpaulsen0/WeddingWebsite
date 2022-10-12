@@ -1,13 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/album": "pages/album.html",
-  "/food": "pages/food.html",
-  "/": "pages/index.html",
-  "/lodging": "pages/lodging.html",
-  "/registry": "pages/registry.html",
-  "/schedule": "pages/schedule.html",
-  "/tour": "pages/tour.html",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
