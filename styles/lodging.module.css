@@ -113,6 +113,7 @@
     flex-direction: row;
     align-items: center;
     height: auto;
+    border-radius: 10px;
     border-top: 1px solid #119aac;
     border-bottom: 1px solid #119aac;
     width: 95%;

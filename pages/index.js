@@ -46,8 +46,11 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href='album'>Ben and Tia's</a> Wedding Website!
         </h1>
+        <div className={styles.timer}>
+          <h1>{days} days {hours} hours {minutes} minutes and {seconds} seconds until the big day!</h1>
+        </div>
         <p className={styles.description}>
-          Thank you for checking out our wedding website! If you are planning on attending, please take the survey where it says RSVP
+          Thank you for checking out our wedding website! If you are planning on attending, kindly fill out the survey where it says RSVP
         </p>
         <div className={styles.grid}>
           <a
@@ -93,9 +96,7 @@ export default function Home() {
             <p>Try some of our favorite places around town to eat.</p>
           </a>
         </div>
-        <div className={styles.timer}>
-          <h1>{days} days {hours} hours {minutes} minutes and {seconds} seconds until the big day!</h1>
-        </div>
+        
       </main>
       <footer className={styles.footer}>
         <a

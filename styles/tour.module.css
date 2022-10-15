@@ -115,6 +115,7 @@
     height: auto;
     border-top: 1px solid #119aac;
     border-bottom: 1px solid #119aac;
+    border-radius: 10px;
     width: 95%;
   }
   

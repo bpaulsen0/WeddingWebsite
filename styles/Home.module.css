@@ -33,7 +33,7 @@
 
 .timer{
   font-size: 1.2rem;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   z-index: 3;
 }
