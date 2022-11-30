@@ -1,5 +1,5 @@
 .content{
-    background-color: #eee1b8;
+    /* background-color: #eee1b8; */
     height:auto;
     min-height: 950px;
     display: flex;
@@ -17,8 +17,8 @@
     z-index: 3;
 }
 .back{
-    padding-top:4px;
-    padding-left:4px;
+    padding-top:10px;
+    padding-left:10px;
     position: absolute;
     text-decoration: underline;
 }

@@ -8,7 +8,7 @@ export default function Home() {
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
   useEffect(() => {
-    const weddingdate = new Date("06/17/2023 14:00:00");
+    const weddingdate = new Date("06/17/2023 15:00:00");
     const interval = setInterval(() => {
       const now = new Date();
       const difference = weddingdate.getTime() - now.getTime();
@@ -34,13 +34,13 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.background}></div>
         <div className={styles.masonry}>
-          <img className={styles.item} src="/album/bikes.jpg"></img>
-          <img className={styles.item} src="/album/eng1.jpg"></img>
-          <img className={styles.item} src="/album/Me_and_Tia.jpg"></img>
-          <img className={styles.item} src="/album/eng2.jpg"></img>
-          <img className={styles.item} src="/album/prom.jpg"></img>
-          <img className={styles.item} src="/album/snowboard.jpg"></img>
-          <img className={styles.item} src="/album/sweeties.jpg"></img>
+          <img className={styles.item} src="/DSC_9221.jpg"></img>
+          <img className={styles.item} src="/DSC_9254.jpg"></img>
+          <img className={styles.item} src="/DSC_8818.jpg"></img>
+          <img className={styles.item} src="/DSC_8876.jpg"></img>
+          <img className={styles.item} src="/DSC_9099.jpg"></img>
+          {/* <img className={styles.item} src="/DSC_8728.jpg"></img> */}
+          <img className={styles.item} src="/DSC_9178.jpg"></img>
         </div>
 
         <h1 className={styles.title}>
@@ -70,12 +70,12 @@ export default function Home() {
             </p>
           </a>
           <a
-            href="registry"
+            href="party"
             className={styles.card}
           >
-            <h2>Gift Registry &raquo;</h2>
+            <h2>Meet the Party &raquo;</h2>
             <p>
-              If you wish to bring a gift, we have registered here.
+              Meet who we chose to stand with us on our special day!
             </p>
           </a>
           <a
