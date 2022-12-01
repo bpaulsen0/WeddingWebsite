@@ -9,6 +9,7 @@
 }
 .title {
     margin: 0;
+    text-decoration: underline;
     padding-top: 50px;
     padding-bottom: 50px;
     line-height: 1.15;
@@ -35,6 +36,7 @@
     padding-left: 50px;
     padding-right: 50px;
     height: 400px;
+    border-radius: 20%;
 }
 
 /* .main {
@@ -106,7 +108,7 @@
   
   .card {
     margin: 1rem;
-    background: #5C7890;
+    /* background: #5C7890; */
     z-index: 2;
     padding: 1.5rem;
     display: flex;
@@ -118,11 +120,11 @@
     width: 95%;
   }
   
-  .card:hover {
+  /* .card:hover {
     transition: .5s;
     color: #ffffff;
     background: #119aac;
-  }
+  } */
   
   .card h2 {
     margin: 0 0 1rem 0;

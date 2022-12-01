@@ -33,7 +33,7 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/3E3CE221-C2E5-499D-A7F9-C5B5F1E06825.jpg"></img>
+            <img className={styles.img} src="/robandathena.jpg"></img>
             <div>
               <h2>The Best Man and Maid of Honnor &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
@@ -75,7 +75,7 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/tiaparents.jpg"></img>
             <div>
               <h2>The Bride's Parents &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>

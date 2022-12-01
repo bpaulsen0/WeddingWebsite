@@ -8,6 +8,7 @@
 .title {
     margin: 0;
     padding: 50px;
+    text-decoration: underline;
     line-height: 1.15;
     font-size: 4rem;
     text-align: center;

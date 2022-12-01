@@ -9,6 +9,7 @@
 }
 .title {
     margin: 0;
+    text-decoration: underline;
     padding-top: 50px;
     padding-bottom: 50px;
     line-height: 1.15;
