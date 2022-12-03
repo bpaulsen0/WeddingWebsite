@@ -20,9 +20,12 @@ export default function lodging() {
             className={styles.card}
           >
             
-            <div>
+             <div className={styles.middle}>
               <h2>Ceremony : 2:00 pm at Saron Lutheran Church</h2>
-              <p>The ceremony will be at the Saron Lutheran Church starting at 2 o'Clock. Please arrive at 1:30pm so you can find a seat. You will find the church at 517 9th Ave. West, Ashland WI 54806. Click here to be directed to this destination on google maps.</p>
+              <p>The ceremony will be at the Saron Lutheran Church starting at 2 o'Clock. 
+                Please arrive at 1:30pm so you can find a seat. 
+                You will find the church at 517 9th Ave. West, Ashland WI 54806.</p> 
+                <p>Click here to be directed to this destination on google maps.</p>
             </div><img className={styles.img} src="/church.jpg"></img>
           </a>
         </div>
@@ -33,9 +36,13 @@ export default function lodging() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>Cocktail Hour : 3:30 pm at The Local Bar & Grille</h2>
-              <p>fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd </p>
+              <p>Ben and Tia will be taking some time after the ceremony to take some pictures with the wedding party. 
+                Please feel free to make your way to The Local Bar & Grille, where we will spend the rest of the night. 
+                There will be drinks and snacks availible for you as you catch up. 
+                Please feel free to take this time to stop back at your hotels and prepare yourself for a night of fun.</p> 
+                <p>Again, please click here for directions.</p>
             </div>
             <img className={styles.img} src="/local.jpg"></img>
           </a>
@@ -46,9 +53,12 @@ export default function lodging() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>Dinner Opens : 5:30 pm at The Local Bar & Grille</h2>
-              <p>fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd </p>
+              <p>After pictures, the newly wed couple will meet you all at The Local for dinner. 
+                We will kick off with a buffet style meal and end with some delicious cup cakes and other treats. 
+                Please reach out with any allergies and dietary needs so we can make sure that everyone will have something to eat.</p>
+                <p>When we have decided on a full menu to serve, you will be able to view it here.</p>
             </div>
             {/* <img className={styles.img} src="/local.jpg"></img> */}
           </a>
@@ -59,9 +69,11 @@ export default function lodging() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>Speeches and Dancing : 7:00 pm at The Local Bar & Grille</h2>
-              <p>fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd </p>
+              <p>After dinner we will have a few speeches from our wedding party and we'll kick off the dancing with a few special dances. 
+                For those of you bringing kids, the music will be explicit after 9 o'Clock.</p>
+              <p>If you have any music requests, please send them our way.</p>
             </div>
             {/* <img className={styles.img} src="/lodging/qualityinn.jpg"></img> */}
           </a>
@@ -72,9 +84,11 @@ export default function lodging() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>End of Reception and Closing Time : 11:00 pm at The Local Bar & Grille</h2>
-              <p>fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd fasdfa sdfasd </p>
+              <p>We are planning on wrapping up at 11 o'Clock. 
+                Please make your arangements for getting home safely before the big day. 
+                Unfortunately, Uber has yet to make it to Ashland.</p>
             </div>
             {/* <img className={styles.img} src="/lodging/qualityinn.jpg"></img> */}
           </a>

@@ -21,7 +21,7 @@ export default function Tour() {
             className={styles.card}
           >
             <img className={styles.img} src="/tour/black-cat-coffeehouse.jpg"></img>
-            <div>
+             <div className={styles.middle}>
               <h2>Black Cat Coffee &raquo;</h2>
               <p>Black Cat Coffee remains one of Tia's favorite spots to visit very time we make it back to Ashland to visit our family. Here we spent hours together before we had started dating while we tried in vain to complete a calculus problem that turned out to be impossible to solve. Over the five hours that we spent trying to tackle our homework we shared many laughs and this is where our relationship began.</p>
             </div>
@@ -34,7 +34,7 @@ export default function Tour() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>Ashland Bay Cinema &raquo;</h2>
               <p>Here is where we finally had our first date. "We" (meaning Tia) decided that "Insidious: The Last Key" would be a perfect movie for a first date. The movie was ok and the popcorn over-salted but to me, it was a perfect night.</p>
             </div>
@@ -49,7 +49,7 @@ export default function Tour() {
             className={styles.card}
           >
             <img className={styles.img} src="/tour/ashwabay.jpg"></img>
-            <div>
+             <div className={styles.middle}>
               <h2>Ashwabay Ski Hill &raquo;</h2>
               <p>Tia being on the Ski Team and me being on the Snowboarding Team, we spent hundreds of hours on this small ski hill training and spending time with eachother. I have always said that the chair lift was the slowest lift but when we were able to time our runs and ride up together, that lift was far too fast.</p>
             </div>
@@ -62,7 +62,7 @@ export default function Tour() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+             <div className={styles.middle}>
               <h2>Houghton Point Hike &raquo;</h2>
               <p>Here we visited nearly every summer together being a great hiking destinations and a great spot to jump off of the rocks. The water will be too cold for any swimming at the time of our wedding, but it is still a gorgeous hike and a great way to fill an afternoon.</p>
             </div>
@@ -76,7 +76,7 @@ export default function Tour() {
             className={styles.card}
           >
             <img className={styles.img} src="/eng2.jpg"></img>
-            <div>
+             <div className={styles.middle}>
               <h2>Split Rock Lighthouse &raquo;</h2>
               <p>Here is where I was finally able to pop the question on the gorgeous pebble beach that we had previously visited and had discussed being a perfect spot for a proposal. After finding the perfect ring and convincing her very subtly to wear something nice, I was able to pull off the perfect surprise.</p>
             </div>

@@ -7,6 +7,9 @@
     align-items: center;
     width:100%;
 }
+.middle {
+  min-width: 500px;
+}
 .title {
     margin: 0;
     text-decoration: underline;

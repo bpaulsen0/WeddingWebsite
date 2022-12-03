@@ -20,7 +20,7 @@ export default function lodging() {
             className={styles.card}
           >
             <img className={styles.img} src="/DSC_9254-2.jpg"></img>
-            <div>
+            <div className={styles.middle}>
               <h2>The Bride and Groom &raquo;</h2>
               <p>The lovely couple! Ben and Tia first met in high school and grew close while spending time together on the ski hill. Now out of college, Ben works as a software engineer for TRC. With one more semester, Tia plans on finishing her chemical engineering degree and persuing a career in that field.</p>
             </div>
@@ -33,12 +33,12 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/robandathena.jpg"></img>
-            <div>
+            <img className={styles.img} src="/robandathena2.jpg"></img>
+            <div className={styles.middle}>
               <h2>The Best Man and Maid of Honnor &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
             </div>
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/robandathena.jpg"></img>
           </a>
         </div>
         <div className={styles.grid}>
@@ -47,12 +47,12 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/placeholder.jpg"></img>
-            <div>
+            <img className={styles.img} src="/donny.jpg"></img>
+            <div className={styles.middle}>
               <h2>Donny Ekholm and Lani Vik &raquo;</h2>
-              <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
+              <p>Donny is a childhood friend of Ben's who was always ready for a late night playing Call of Duty and frozen pizza. Lani is a close friend from high school, that bonded with Tia over our love for thrifting, adventuring, and DIY projects.</p>
             </div>
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/lani.jpg"></img>
           </a>
         </div>
         <div className={styles.grid}>
@@ -61,12 +61,12 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/placeholder.jpg"></img>
-            <div>
+            <img className={styles.img} src="/laura.jpg"></img>
+            <div className={styles.middle}>
               <h2>Laura Paulsen and MaKayla Temple &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
             </div>
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/makayla.jpg"></img>
           </a>
         </div>
         <div className={styles.grid}>
@@ -76,11 +76,11 @@ export default function lodging() {
             className={styles.card}
           >
             <img className={styles.img} src="/tiaparents.jpg"></img>
-            <div>
+            <div className={styles.middle}>
               <h2>The Bride's Parents &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
             </div>
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/danaandryan2.jpg"></img>
           </a>
         </div>
         <div className={styles.grid}>
@@ -89,12 +89,12 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/placeholder.jpg"></img>
-            <div>
+            <img className={styles.img} src="/bryanandtheresa.jpg"></img>
+            <div className={styles.middle}>
               <h2>The Groom's Parents &raquo;</h2>
               <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
             </div>
-            <img className={styles.img} src="/placeholder.jpg"></img>
+            <img className={styles.img} src="/bryanandtheresa2.jpg"></img>
           </a>
         </div>
       </div>

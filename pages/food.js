@@ -21,7 +21,7 @@ export default function food() {
             className={styles.card}
           >
             <img className={styles.img} src="/food/deepwater.jpg"></img>
-            <div>
+            <div className={styles.middle}>
               <h2>Deep Water &raquo;</h2>
               <p>Family-friendly brewpub with rotating taps of craft beers, hearty comfort food, wine & cocktails. This is our favorite resturant when visiting Ashland. Be sure to try the waffle fries in the ranch, you won't regret it.</p>
             </div>
@@ -34,7 +34,7 @@ export default function food() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+            <div className={styles.middle}>
               <h2>Cafe Coco &raquo;</h2>
               <p>Pâtissier Noreen Ovadia Wills, infamous for her cakes, pastries and bread, opened a bakery in Washburn in early April 2009. ‘Grown Locally’ and ‘Made from Scratch’ are not just words at Coco but the culmination of a lifetime of eating, tasting, cooking and baking delivered to our customers with the love and respect that such carefully chosen recipes and ingredients deserve. Somewhere between Parisian Boulanger, metro-chic, and Grandma’s kitchen lies the heart and soul of Coco.</p>
             </div>
@@ -49,7 +49,7 @@ export default function food() {
             className={styles.card}
           >
             <img className={styles.img} src="/food/abc.jpg"></img>
-            <div>
+            <div className={styles.middle}>
               <h2>Ashland Baking Company &raquo;</h2>
               <p>In September 2001, Ashland Baking Company opened its doors with only a handful of employees, a small product line, and big dreams. Since then, the bakery has grown to not only serve our community with delicious baked goods, but also to deliver and ship to various restaurants, food cooperatives, and grocery stores as far away as Grand Marais. A truely amazing place to stop for a quick breakfast. We recomend the bagels, asiago anything, and the crossaits. It doesn't hurt that Black Cat Coffee is right across the road (wink wink).</p>
             </div>
@@ -62,7 +62,7 @@ export default function food() {
             target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <div>
+            <div className={styles.middle}>
               <h2>Black Cat &raquo;</h2>
               <p>Since 1995, the Black Cat Coffeehouse has been serving organic, fair-trade and farm focused coffees. They currently offer Duluth Coffee Company-Duluth, MN They make a variety of syrups in house,  using organic sugar & natural  ingredients to add extra flavor to your cup.  Not a coffee drinker?  They offer Tea Source tea, smoothies made with real fruit, or a variety of natural bottled juices and spritzers to quench your thirst.</p>
             </div>
@@ -77,7 +77,7 @@ export default function food() {
             className={styles.card}
           >
             <img className={styles.img} src="/food/north-coast-coffee.jpg"></img>
-            <div>
+            <div className={styles.middle}>
               <h2>North Coast Coffee &raquo;</h2>
               <p>Recently bought by a family friend, this little coffee shop is always worth a visit. They have delicious coffee and tea but they also have a great selection of ice creams that could make anyone smile.</p>
             </div>
