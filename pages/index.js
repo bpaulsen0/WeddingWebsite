@@ -28,6 +28,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Ben and Tias Wedding!</title>
+        <link rel="icon" href="/oie_png.png" />
       </Head>
       <img className={styles.decl} src="/CornerDecoration.png"></img>
       <img className={styles.decr} src="/CornerDecoration.png"></img>
@@ -39,7 +40,6 @@ export default function Home() {
           <img className={styles.item} src="/DSC_8818.jpg"></img>
           <img className={styles.item} src="/DSC_8876.jpg"></img>
           <img className={styles.item} src="/DSC_9099.jpg"></img>
-          {/* <img className={styles.item} src="/DSC_8728.jpg"></img> */}
           <img className={styles.item} src="/DSC_9178.jpg"></img>
         </div>
 
