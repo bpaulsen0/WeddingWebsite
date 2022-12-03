@@ -36,7 +36,7 @@ export default function lodging() {
           >
             <img className={styles.img} src="/robandathena2.jpg"></img>
             <div className={styles.middle}>
-              <h2>The Best Man and Maid of Honnor &raquo;</h2>
+              <h2>The Best Man and Maid of Honor &raquo;</h2>
               <p>Another lovely couple, Robert Francis and Athena Wiezorek have been the closest of friends to us for several years. 
                 Athena and Tia being sisters have always been close. 
                 Once Athena found Rob, he was introduced to us and has grown to be as close as family. 
