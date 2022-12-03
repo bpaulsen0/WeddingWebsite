@@ -89,7 +89,7 @@ export default function Home() {
           </a>
           <a href="lodging" className={styles.card}>
             <h2>Where to Stay &raquo;</h2>
-            <p>We've blocked off a few rooms for your convinence at the AmericInn</p>
+            <p>We've blocked off a few rooms for your convenience at the AmericInn</p>
           </a>
           <a href="food" className={styles.card}>
             <h2>Where to Eat &raquo;</h2>

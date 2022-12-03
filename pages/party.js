@@ -23,7 +23,7 @@ export default function lodging() {
               <h2>The Bride and Groom &raquo;</h2>
               <p>The lovely couple! We first met in high school and grew close while spending time together on the ski hill. 
                 Now out of college, Ben works as a software engineer for TRC. 
-                With one more semester, Tia plans on finishing her chemical engineering degree and persuing a career in that field.</p>
+                With one more semester, Tia plans on finishing her chemical engineering degree and perusing a career in that field.</p>
             </div>
             <img className={styles.img} src="/DSC_8993-2.jpg"></img>
           </a>

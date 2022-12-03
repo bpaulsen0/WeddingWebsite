@@ -22,7 +22,12 @@ export default function lodging() {
             <img className={styles.img} src="/lodging/americinn.jpg"></img>
              <div className={styles.middle}>
               <h2>AmericInn &raquo;</h2>
-              <p>Overlooking Lake Superior, this casual hotel is less than a half-mile from Ashland Breakwater Lighthouse, 2 miles from the Ashland Mural Walk and 16 miles from Houghton Falls State Natural Area. Straightforward rooms and suites offer free Wi-Fi, flat-screen TVs and minifridges, as well as coffeemakers. Some have balconies, microwaves and/or pull-out sofas. Complimentary perks include breakfast and parking. Other amenities consist of an exercise room, a sauna and an indoor pool with waterslides, plus a hot tub, a game room, and meeting and event space. There's also a restaurant/bar and guest laundry facilities.</p>
+              <p>Overlooking Lake Superior, this casual hotel is less than a half-mile from Ashland Breakwater Lighthouse, 
+                2 miles from the Ashland Mural Walk and 16 miles from Houghton Falls State Natural Area. Straightforward 
+                rooms and suites offer free Wi-Fi, flat-screen TVs and minifridges, as well as coffeemakers. Some have 
+                balconies, microwaves and/or pull-out sofas. Complimentary perks include breakfast and parking. Other 
+                amenities consist of an exercise room, a sauna and an indoor pool with waterslides, plus a hot tub, a 
+                game room, and meeting and event space. There's also a restaurant/bar and guest laundry facilities.</p>
             </div>
           </a>
         </div>
@@ -35,7 +40,12 @@ export default function lodging() {
           >
              <div className={styles.middle}>
               <h2>Quality Inn &raquo;</h2>
-              <p>Flanked by Highway 2 and Chequamegon Bay, this casual hotel with a woodsy exterior is 20 miles from the ferry terminal to Madeline Island, and 2 miles from both Prentice Park and the Northern Great Lakes Visitor Center. The laid-back rooms come with free Wi-Fi and flat-screen TVs, as well as microwaves, minifridges, tea and coffeemakers. Some have lake views, sofabeds and/or direct pool access. Room service is available. Breakfast (fee) is available in an informal cafe. There's also a bar, and a rustic lounge with a stone fireplace. Other amenities include a fitness center, a heated indoor pool and a hot tub.</p>
+              <p>Flanked by Highway 2 and Chequamegon Bay, this casual hotel with a woodsy exterior is 20 miles from the 
+                ferry terminal to Madeline Island, and 2 miles from both Prentice Park and the Northern Great Lakes Visitor 
+                Center. The laid-back rooms come with free Wi-Fi and flat-screen TVs, as well as microwaves, minifridges, 
+                tea and coffeemakers. Some have lake views, sofabeds and/or direct pool access. Room service is available. 
+                Breakfast (fee) is available in an informal cafe. There's also a bar, and a rustic lounge with a stone fireplace. 
+                Other amenities include a fitness center, a heated indoor pool and a hot tub.</p>
             </div>
             <img className={styles.img} src="/lodging/qualityinn.jpg"></img>
           </a>
@@ -50,7 +60,12 @@ export default function lodging() {
             <img className={styles.img} src="/lodging/hotelchequamegon.webp"></img>
              <div className={styles.middle}>
               <h2>Hotel Chequamegon &raquo;</h2>
-              <p>Overlooking Chequamegon Bay on Lake Superior, this polished hotel in a grand building is 3 minutes’ walk from Ashland Historical Museum and 1 mile from Northland College. The warm, elegant rooms have free Wi-Fi, flat-screen TVs and iPod docks, as well as microwaves, minifridges and coffeemakers. Upgraded rooms and suites come with lake views, whirlpool tubs and/or pull-out sofas. Suites with kitchens are also available. Parking and hot breakfast are complimentary. There’s a grill restaurant/bar with a terrace and lake views. Other amenities include an indoor pool, a hot tub and an exercise room, as well as a business center.</p>
+              <p>Overlooking Chequamegon Bay on Lake Superior, this polished hotel in a grand building is 3 minutes’ walk from 
+                Ashland Historical Museum and 1 mile from Northland College. The warm, elegant rooms have free Wi-Fi, flat-screen 
+                TVs and iPod docks, as well as microwaves, minifridges and coffeemakers. Upgraded rooms and suites come with lake 
+                views, whirlpool tubs and/or pull-out sofas. Suites with kitchens are also available. Parking and hot breakfast 
+                are complimentary. There’s a grill restaurant/bar with a terrace and lake views. Other amenities include an indoor 
+                pool, a hot tub and an exercise room, as well as a business center.</p>
             </div>
           </a>
         </div>

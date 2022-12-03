@@ -39,7 +39,7 @@ export default function lodging() {
               <h2>Cocktail Hour : 3:30 pm at The Local Bar & Grille</h2>
               <p>Ben and Tia will be taking some time after the ceremony to take some pictures with the wedding party. 
                 Please feel free to make your way to The Local Bar & Grille, where we will spend the rest of the night. 
-                There will be drinks and snacks availible for you as you catch up. 
+                There will be drinks and snacks available for you as you catch up. 
                 Please feel free to take this time to stop back at your hotels and prepare yourself for a night of fun.</p> 
                 <p>Again, please click here for directions.</p>
             </div>
@@ -86,7 +86,7 @@ export default function lodging() {
              <div className={styles.middle}>
               <h2>End of Reception and Closing Time : 11:00 pm at The Local Bar & Grille</h2>
               <p>We are planning on wrapping up at 11 o'Clock. 
-                Please make your arangements for getting home safely before the big day. 
+                Please make your arrangements for getting home safely before the big day. 
                 Unfortunately, Uber has yet to make it to Ashland.</p>
             </div>
             {/* <img className={styles.img} src="/lodging/qualityinn.jpg"></img> */}
