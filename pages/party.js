@@ -21,7 +21,9 @@ export default function lodging() {
             <img className={styles.img} src="/DSC_9254-2.jpg"></img>
             <div className={styles.middle}>
               <h2>The Bride and Groom &raquo;</h2>
-              <p>The lovely couple! Ben and Tia first met in high school and grew close while spending time together on the ski hill. Now out of college, Ben works as a software engineer for TRC. With one more semester, Tia plans on finishing her chemical engineering degree and persuing a career in that field.</p>
+              <p>The lovely couple! We first met in high school and grew close while spending time together on the ski hill. 
+                Now out of college, Ben works as a software engineer for TRC. 
+                With one more semester, Tia plans on finishing her chemical engineering degree and persuing a career in that field.</p>
             </div>
             <img className={styles.img} src="/DSC_8993-2.jpg"></img>
           </a>
@@ -35,7 +37,10 @@ export default function lodging() {
             <img className={styles.img} src="/robandathena2.jpg"></img>
             <div className={styles.middle}>
               <h2>The Best Man and Maid of Honnor &raquo;</h2>
-              <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
+              <p>Another lovely couple, Robert Francis and Athena Wiezorek have been the closest of friends to us for several years. 
+                Athena and Tia being sisters have always been close. 
+                Once Athena found Rob, he was introduced to us and has grown to be as close as family. 
+                We all hope to be family, at least by marriage, in the coming years.</p>
             </div>
             <img className={styles.img} src="/robandathena.jpg"></img>
           </a>
@@ -49,7 +54,10 @@ export default function lodging() {
             <img className={styles.img} src="/donny.jpg"></img>
             <div className={styles.middle}>
               <h2>Donny Ekholm and Lani Vik &raquo;</h2>
-              <p>Donny is a childhood friend of Ben's who was always ready for a late night playing Call of Duty and frozen pizza. Lani is a close friend from high school, that bonded with Tia over our love for thrifting, adventuring, and DIY projects.</p>
+              <p>Donny is a childhood friend of Ben's who was always ready for a late night playing Call of Duty and frozen pizza.
+                After highschool, he was always ready for a fishing trip or a quick lunch to catch up.
+                Lani is a close friend from high school, that bonded with Tia over our love for thrifting, adventuring, and DIY projects.
+                Lani has always been there for Tia no matter what. She is the type of friend that would drop anything to help and comfort you.</p>
             </div>
             <img className={styles.img} src="/lani.jpg"></img>
           </a>
@@ -63,7 +71,10 @@ export default function lodging() {
             <img className={styles.img} src="/laura.jpg"></img>
             <div className={styles.middle}>
               <h2>Laura Paulsen and MaKayla Temple &raquo;</h2>
-              <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
+              <p>Laura is Ben's older sister who has always been a confidant and a supportive friend. 
+                Always in the search for adventure, we can't wait to see what fun lies ahead whenever we're able to spend time with her.
+                We first met Makayla when Tia joined a sorority and was made Makayla's "little". 
+                Since then we are all constantly finding ourselves planning game nights and going dancing.</p>
             </div>
             <img className={styles.img} src="/makayla.jpg"></img>
           </a>
@@ -77,7 +88,10 @@ export default function lodging() {
             <img className={styles.img} src="/tiaparents.jpg"></img>
             <div className={styles.middle}>
               <h2>The Bride's Parents &raquo;</h2>
-              <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
+              <p>When Tia first brought Ben into her wonderful family, he was met with nothing but kindness and very good food (something about that being the key to a man's heart).
+                Over the few years that we have been together, Dana and Ryan have done everything to make Ben feel like a second son and have made it known that that's exactly how they see him.
+                Thank you for everything that you have done for the two of us!
+              </p>
             </div>
             <img className={styles.img} src="/danaandryan2.jpg"></img>
           </a>
@@ -89,9 +103,11 @@ export default function lodging() {
             className={styles.card}
           >
             <img className={styles.img} src="/bryanandtheresa.jpg"></img>
-            <div className={styles.middle}>
+            <div className={styles.middle}> 
               <h2>The Groom's Parents &raquo;</h2>
-              <p>asdf af asd f asdfg a sd fg asd f as d    asdgasdgasfdg asfhafhgafg a sfdg ashfasf hg asdf h a sdfh a hgsfdghasdfgh asfdhasfh asfhasfhgasdfgha sdfgasdfgasdgfas dgfasdfgasd df asdf a fafsdgfa asdf</p>
+              <p>The first time Ben mentioned Tia to his family, the first thing Theresa said was I told you so, as she had told Ben to ask Tia out when they were freshman.
+             They have always been more than welcoming and kind. They treat Tia like their second daughter and have truly made her feel a part of the family. 
+             Even letting her live with them during the first "stay at home" order. We appericate everything you have done for us!</p>
             </div>
             <img className={styles.img} src="/bryanandtheresa2.jpg"></img>
           </a>
