@@ -72,7 +72,7 @@ export default function Tour() {
               <p>Here we visited nearly every summer together being a great hiking destinations and a great spot to jump off of the rocks. 
                 The water will be too cold for any swimming at the time of our wedding, but it is still a gorgeous hike and a great way to fill an afternoon.</p>
             </div>
-            <img className={styles.img} src="/tour/black-cat-coffeehouse.jpg"></img>
+            <img className={styles.img} src="/tour/houghton.jpg"></img>
           </a>
         </div>
         <div className={styles.grid}>
