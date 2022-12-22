@@ -58,7 +58,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>RSVP! &raquo;</h2>
-            <p>Tell us that you're going to show by filling out a quick survey on your phone.</p>
+            <p>Tell us if you're able to join us by filling out a quick survey.</p>
           </a>
           <a
             href="schedule"
