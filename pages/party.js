@@ -102,14 +102,14 @@ export default function lodging() {
             // target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
-            <img className={styles.img} src="/bryanandtheresa.jpg"></img>
+            <img className={styles.img} src="/DSC07077.jpg"></img>
             <div className={styles.middle}> 
               <h2>The Groom's Parents &raquo;</h2>
               <p>The first time Ben mentioned Tia to his family, the first thing Theresa said was I told you so, as she had told Ben to ask Tia out when they were freshman.
              They have always been more than welcoming and kind. They treat Tia like their second daughter and have truly made her feel a part of the family. 
              Even letting her live with them during the first "stay at home" order. We appreciate everything you have done for us!</p>
             </div>
-            <img className={styles.img} src="/bryanandtheresa2.jpg"></img>
+            <img className={styles.img} src="/DSC06004.jpg"></img>
           </a>
         </div>
       </div>
