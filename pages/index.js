@@ -107,6 +107,12 @@ export default function Home() {
         </a>
         <a
           className={styles.footerURL}
+          href="https://www.honeyfund.com/site/HitchedPaulsens"
+        >
+          ⥽Honeymoon Fund⥼
+        </a>
+        <a
+          className={styles.footerURL}
           href="https://www.target.com/gift-registry/gift/ben-and-tias-wedding"
         >
           ⥽Target Gift Registry⥼
