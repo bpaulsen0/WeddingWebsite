@@ -54,11 +54,11 @@ export default function Home() {
         </p>
         <div className={styles.grid}>
           <a
-            href="https://forms.gle/WxpvjU3EmtbboS7A6"
+            href=""
             className={styles.card}
           >
-            <h2>RSVP! &raquo;</h2>
-            <p>Tell us if you're able to join us by filling out a quick survey.</p>
+            <h2>Watch it Live! &raquo;</h2>
+            <p>We've set up the viewing so that anyone can watch the ceremony live at 2PM</p>
           </a>
           <a
             href="schedule"
