@@ -54,7 +54,8 @@ export default function Home() {
         </p>
         <div className={styles.grid}>
           <a
-            href=""
+            href="https://www.facebook.com/AshlandLutheran"
+            target='_blank' rel='noopener noreferrer'
             className={styles.card}
           >
             <h2>Watch it Live! &raquo;</h2>
